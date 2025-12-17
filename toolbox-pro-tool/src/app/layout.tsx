@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   verification: {
     // Correct: Only the code, not the full meta tag
-    google: "V-kbajY2PI9NSC-7RrEjNCyyQpaVCZCCTkl1VDIZq6s",
+    google: "w6E1xpZMcK0Vgz3aoWEuz3JDx_x7cgHngDoi74uqSEU",
   },
 };
 
@@ -50,7 +50,7 @@ export default function RootLayout({
         {/* Google Search Console */}
         <meta
           name="google-site-verification"
-          content="V-kbajY2PI9NSC-7RrEjNCyyQpaVCZCCTkl1VDIZq6s"
+          content="w6E1xpZMcK0Vgz3aoWEuz3JDx_x7cgHngDoi74uqSEU"
         />
 
         {/* Google Analytics (replace with your real GA4 ID) */}
