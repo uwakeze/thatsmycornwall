@@ -10,11 +10,11 @@ export default function DisclaimerPage() {
 						Disclaimer
 					</h1>
 					<p className='text-xl text-gray-600 max-w-2xl mx-auto'>
-						Important information about the use of our tools and
+						Important information about the use of our sites and
 						services
 					</p>
 					<p className='text-sm text-gray-500 mt-4'>
-						Last updated: January 2024
+						Last updated: June 2025
 					</p>
 				</div>
 
@@ -28,10 +28,9 @@ export default function DisclaimerPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='text-gray-600 leading-relaxed'>
-								The information and tools provided by ToolBox
-								Pro are for general informational and utility
+								The information provided by thatsmycornwall.com are for general informational and utility
 								purposes only. While we strive to provide
-								accurate and reliable tools, we make no
+								accurate and reliable, we make no
 								representations or warranties of any kind,
 								express or implied, about the completeness,
 								accuracy, reliability, suitability, or
@@ -47,12 +46,12 @@ export default function DisclaimerPage() {
 							<div className='w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mb-4'>
 								<FileText className='w-6 h-6 text-white' />
 							</div>
-							<CardTitle>Tool Accuracy & Results</CardTitle>
+							<CardTitle>site Accuracy & Results</CardTitle>
 						</CardHeader>
 						<CardContent className='space-y-4'>
 							<div>
 								<h3 className='font-semibold text-gray-800 mb-2'>
-									Keyword Suggestion Tool:
+									Keyword Suggestion site:
 								</h3>
 								<ul className='list-disc list-inside text-gray-600 space-y-1'>
 									<li>
@@ -112,7 +111,7 @@ export default function DisclaimerPage() {
 									External APIs:
 								</h3>
 								<p className='text-gray-600 mb-2'>
-									Our keyword suggestion tool relies on the
+									Our keyword suggestion site relies on the
 									Datamuse API. We are not responsible for:
 								</p>
 								<ul className='list-disc list-inside text-gray-600 space-y-1'>
@@ -139,7 +138,7 @@ export default function DisclaimerPage() {
 									Service Interruptions:
 								</h3>
 								<p className='text-gray-600'>
-									Our tools may become temporarily unavailable
+									Our sites may become temporarily unavailable
 									due to third-party service outages,
 									maintenance, or technical issues beyond our
 									control.
@@ -163,15 +162,15 @@ export default function DisclaimerPage() {
 								<ul className='list-disc list-inside text-gray-600 space-y-1'>
 									<li>
 										Any loss or damage arising from your use
-										of our tools
+										of our sites
 									</li>
 									<li>
-										Business decisions made based on tool
+										Business decisions made based on site
 										results
 									</li>
 									<li>
 										Inaccurate or incomplete information
-										provided by our tools
+										provided by our sites
 									</li>
 									<li>
 										Technical issues, downtime, or service
@@ -189,7 +188,7 @@ export default function DisclaimerPage() {
 								</h3>
 								<p className='text-gray-600'>
 									Our total liability to you for any claims
-									arising from the use of our free tools shall
+									arising from the use of our free sites shall
 									not exceed $0 (zero dollars), as our
 									services are provided free of charge.
 								</p>
@@ -205,7 +204,7 @@ export default function DisclaimerPage() {
 						</CardHeader>
 						<CardContent>
 							<p className='text-gray-600 leading-relaxed mb-4'>
-								Our tools are not intended to replace
+								Our sites are not intended to replace
 								professional advice. The results and suggestions
 								provided should not be considered as
 								professional consultation in marketing, SEO,
@@ -245,10 +244,10 @@ export default function DisclaimerPage() {
 								<ul className='list-disc list-inside text-gray-600 space-y-1'>
 									<li>
 										Verifying the accuracy and relevance of
-										tool results
+										site results
 									</li>
 									<li>
-										Using tools in compliance with
+										Using sites in compliance with
 										applicable laws and regulations
 									</li>
 									<li>
@@ -269,8 +268,8 @@ export default function DisclaimerPage() {
 									Best Practices:
 								</h3>
 								<p className='text-gray-600'>
-									We recommend using our tools as part of a
-									broader toolkit and always cross-referencing
+									We recommend using our sites as part of a
+									broader sitekit and always cross-referencing
 									results with other sources and professional
 									expertise when making important decisions.
 								</p>
@@ -287,7 +286,7 @@ export default function DisclaimerPage() {
 								We reserve the right to modify this disclaimer
 								at any time without prior notice. Changes will
 								be effective immediately upon posting on this
-								page. Your continued use of our tools after any
+								page. Your continued use of our sites after any
 								changes constitutes acceptance of the updated
 								disclaimer.
 							</p>
@@ -301,12 +300,12 @@ export default function DisclaimerPage() {
 						<CardContent>
 							<p className='text-gray-600 mb-4'>
 								If you have questions about this disclaimer or
-								need clarification about our tools, please
+								need clarification about our sites, please
 								contact us:
 							</p>
 							<div className='space-y-2 text-gray-600'>
 								<p>
-									<strong>Email:</strong> toolboxpro@gmail.com
+									<strong>Email:</strong> siteboxpro@gmail.com
 								</p>
 								<p>
 									<strong>Address:</strong> 123 new Delhi,
@@ -326,9 +325,9 @@ export default function DisclaimerPage() {
 								Important Notice
 							</h3>
 							<p className='text-orange-100 text-sm'>
-								By using ToolBox Pro, you acknowledge that you
+								By using siteBox Pro, you acknowledge that you
 								have read, understood, and agree to this
-								disclaimer. Use our tools at your own risk and
+								disclaimer. Use our sites at your own risk and
 								always verify results independently.
 							</p>
 						</CardContent>
