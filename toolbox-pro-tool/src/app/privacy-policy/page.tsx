@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
 						use, and protect your information.
 					</p>
 					<p className='text-sm text-gray-500 mt-4'>
-						Last updated: January 2024
+						Last updated: June 2025
 					</p>
 				</div>
 
@@ -37,7 +37,7 @@ export default function PrivacyPolicyPage() {
 										to us
 									</li>
 									<li>
-										Content you input into our tools
+										Content you input into our s
 										(processed locally, not stored)
 									</li>
 									<li>
@@ -47,7 +47,7 @@ export default function PrivacyPolicyPage() {
 							</div>
 							<div>
 								<h3 className='font-semibold text-gray-800 mb-2'>
-									Automatically Collected Information
+									Automatically Collected Informlation
 								</h3>
 								<ul className='list-disc list-inside text-gray-600 space-y-1'>
 									<li>Usage statistics and analytics data</li>
@@ -70,7 +70,7 @@ export default function PrivacyPolicyPage() {
 						<CardContent>
 							<ul className='list-disc list-inside text-gray-600 space-y-2'>
 								<li>
-									To provide and improve our tools and
+									To provide and improve our site and
 									services
 								</li>
 								<li>
@@ -117,9 +117,9 @@ export default function PrivacyPolicyPage() {
 									Data Processing
 								</h3>
 								<p className='text-gray-600'>
-									Most of our tools process your data locally
+									Most of our site process your data locally
 									in your browser. We do not store the content
-									you input into our tools on our servers
+									you input into our site on our servers
 									unless explicitly stated otherwise.
 								</p>
 							</div>
@@ -195,7 +195,7 @@ export default function PrivacyPolicyPage() {
 									</h3>
 									<ul className='list-disc list-inside text-gray-600 space-y-1'>
 										<li>
-											Contact us at toolbxpro@gmail.com
+											Contact us at sitebxpro@gmail.com
 										</li>
 										<li>
 											Use browser settings for cookies
@@ -235,7 +235,7 @@ export default function PrivacyPolicyPage() {
 							<p className='text-gray-600'>
 								You can control cookies through your browser
 								settings. Note that disabling certain cookies
-								may affect the functionality of our tools.
+								may affect the functionality of our sites.
 							</p>
 						</CardContent>
 					</Card>
@@ -251,7 +251,7 @@ export default function PrivacyPolicyPage() {
 							</p>
 							<div className='space-y-2 text-gray-600'>
 								<p>
-									<strong>Email:</strong> toolbxpro@gmail.com
+									<strong>Email:</strong> sitebxpro@gmail.com
 								</p>
 								<p>
 									<strong>Address:</strong> 123 New Delhi,
