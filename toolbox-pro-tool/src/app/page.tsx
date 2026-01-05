@@ -1,7 +1,15 @@
-import Link from "next/link"
-import { Search, FileText, Zap, Shield, Users } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+"use client";
+
+import Link from "next/link";
+import { Search, FileText, Zap, Shield, Users } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export default function HomePage() {
   return (
@@ -14,10 +22,14 @@ export default function HomePage() {
             ToolBox Pro
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-            Your ultimate collection of free digital tools for content creators, marketers, and writers
+            Your ultimate collection of free digital tools for content creators,
+            marketers, and writers
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 font-semibold">
+            <Button
+              size="lg"
+              className="bg-white text-blue-600 hover:bg-blue-50 font-semibold"
+            >
               Explore Tools
             </Button>
             <Button
@@ -35,9 +47,12 @@ export default function HomePage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">Powerful Tools at Your Fingertips</h2>
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">
+              Powerful Tools at Your Fingertips
+            </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Boost your productivity with our collection of free, easy-to-use tools
+              Boost your productivity with our collection of free, easy-to-use
+              tools
             </p>
           </div>
 
@@ -47,9 +62,12 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                   <Search className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle className="text-2xl text-gray-800">Keyword Suggestion Tool</CardTitle>
+                <CardTitle className="text-2xl text-gray-800">
+                  Keyword Suggestion Tool
+                </CardTitle>
                 <CardDescription className="text-gray-600">
-                  Discover related keywords and long-tail suggestions for your content
+                  Discover related keywords and long-tail suggestions for your
+                  content
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center">
@@ -72,9 +90,12 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                   <FileText className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle className="text-2xl text-gray-800">Word Count & Read Time</CardTitle>
+                <CardTitle className="text-2xl text-gray-800">
+                  Word Count & Read Time
+                </CardTitle>
                 <CardDescription className="text-gray-600">
-                  Analyze your content with detailed word count and reading time estimates
+                  Analyze your content with detailed word count and reading time
+                  estimates
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center">
@@ -99,8 +120,12 @@ export default function HomePage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">Why Choose ToolBox Pro?</h2>
-            <p className="text-xl text-gray-600">Built with modern technology and user experience in mind</p>
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">
+              Why Choose ToolBox Pro?
+            </h2>
+            <p className="text-xl text-gray-600">
+              Built with modern technology and user experience in mind
+            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -108,28 +133,40 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Zap className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Lightning Fast</h3>
-              <p className="text-gray-600">Optimized for speed and performance with instant results</p>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                Lightning Fast
+              </h3>
+              <p className="text-gray-600">
+                Optimized for speed and performance with instant results
+              </p>
             </div>
 
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Secure & Private</h3>
-              <p className="text-gray-600">Your data is processed securely and never stored</p>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                Secure & Private
+              </h3>
+              <p className="text-gray-600">
+                Your data is processed securely and never stored
+              </p>
             </div>
 
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">User Friendly</h3>
-              <p className="text-gray-600">Intuitive interface designed for everyone</p>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                User Friendly
+              </h3>
+              <p className="text-gray-600">
+                Intuitive interface designed for everyone
+              </p>
             </div>
           </div>
         </div>
       </section>
     </div>
-  )
+  );
 }
